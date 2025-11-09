@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import sys, time, os
 from pathlib import Path
 from crypto_utils import (

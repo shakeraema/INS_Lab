@@ -1,9 +1,3 @@
-# substitution_lab.py
-# Checkpoint-2: Solve monoalphabetic substitution ciphers.
-# Works on macOS in VS Code. No Ubuntu needed.
-# This script is ORIGINAL code (no copied snippets). If you later download a quadgram file,
-# remember to include that link in your report.
-
 import math
 import os
 import random
@@ -273,10 +267,6 @@ def solve_cipher(name, cipher):
     print(best_key)
     print("\nDecrypted text (first ~500 chars):")
     print(best_plain[:500] + ("..." if len(best_plain) > 500 else ""))
-
-    # If you want the whole plaintext printed:
-    # print("\nFULL DECRYPTION:\n")
-    # print(best_plain)
 
 if __name__ == "__main__":
     solve_cipher("Cipher-1", CIPHER1)
